@@ -18,7 +18,7 @@ const Home = () => {
         className="absolute top-0 mt-12 text-center"
       >
         <p>"From the orion stars"</p>
-        <p>Judy Walker</p>
+        <p>Glory Uri 'Asa oyibo'</p>
       </motion.div>
       {/* Mobile */}
       <Link
@@ -53,7 +53,7 @@ const Home = () => {
       </Link>
       <Marquee
         transition={{ ...transition }}
-        message="Happy Birthday."
+        message="Happy Birthday Love."
         small={false}
       />
 
