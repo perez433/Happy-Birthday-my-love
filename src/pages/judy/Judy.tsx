@@ -24,7 +24,7 @@ const Judy = () => {
         <p className=" text-xl">Judy Walker</p>
         <div className="flex flex-col text-left">
           <Link to={"/wishes"} className="hover:underline">
-            Our Wishes
+            My Wishes ❤️
           </Link>
           <Link
             to={"https://github.com/SomnathDas/lofty-leather"}
@@ -43,7 +43,7 @@ const Judy = () => {
       >
         <Marquee
           transition={{ ...transition }}
-          message="Judy Walker."
+          message="Glory Uri 'Baby oku'"
           small={true}
         />
       </motion.div>
@@ -66,8 +66,8 @@ const Judy = () => {
         exit={{ opacity: 0 }}
         className="absolute bottom-0 mb-12 text-center md:hidden w-full underline flex flex-col"
       >
-        <Link to={"/wishes"}>Our Wishes</Link>
-        <Link to={"/about"}>About this</Link>
+        <Link to={"/wishes"}>My Wishes</Link>
+        <Link to={"/about"}>🫂💕❤️</Link>
       </motion.div>
       {/* Mobile */}
       <motion.div
@@ -105,7 +105,7 @@ const Judy = () => {
       </motion.div>
       <Marquee
         transition={{ ...transition }}
-        message="Happy Birthday."
+        message="Happy Birthday Babe."
         small={false}
       />
     </motion.main>
