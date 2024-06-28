@@ -21,13 +21,13 @@ const Judy = () => {
         exit={{ opacity: 0 }}
         className="absolute top-0 left-32 mt-12 text-center hidden md:flex flex-col justify-around h-32 "
       >
-        <p className=" text-xl">Judy Walker</p>
+        <p className=" text-xl">Glory Uri ('Soft baby')</p>
         <div className="flex flex-col text-left">
           <Link to={"/wishes"} className="hover:underline">
             My Wishes ❤️
           </Link>
           <Link
-            to={"https://github.com/SomnathDas/lofty-leather"}
+            to={"#"}
             className="hover:underline"
           >
             About this
@@ -43,7 +43,7 @@ const Judy = () => {
       >
         <Marquee
           transition={{ ...transition }}
-          message="Glory Uri 'Baby oku'"
+          message="Happy Birthday to a star who shines the brightest in everyone's life she has touched!"
           small={true}
         />
       </motion.div>
@@ -66,7 +66,7 @@ const Judy = () => {
         exit={{ opacity: 0 }}
         className="absolute bottom-0 mb-12 text-center md:hidden w-full underline flex flex-col"
       >
-        <Link to={"/wishes"}>My Wishes</Link>
+        <Link to={"/wishes"}>Pls Click Here to See My Wishes</Link>
         <Link to={"/about"}>🫂💕❤️</Link>
       </motion.div>
       {/* Mobile */}
@@ -105,7 +105,7 @@ const Judy = () => {
       </motion.div>
       <Marquee
         transition={{ ...transition }}
-        message="Happy Birthday Babe."
+        message="Happy Birthday Soft Lady"
         small={false}
       />
     </motion.main>
