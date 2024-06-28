@@ -18,7 +18,7 @@ const Home = () => {
         className="absolute top-0 mt-12 text-center"
       >
         <p>"From Your Very Annoying Partner 😂😂"</p>
-        <p>To a bright Shining star </p>
+        <p>Click on this image below </p>
       </motion.div>
       {/* Mobile */}
       <Link
